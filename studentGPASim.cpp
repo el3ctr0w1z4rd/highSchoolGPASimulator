@@ -4,9 +4,9 @@
 #include <list>
 #include <cstdlib>
 #include <ctime>
-#include <cmath>     // for roundf
-#include <iomanip>   // for formatted output
-#include <algorithm> // for sorting
+#include <cmath>    
+#include <iomanip>   
+#include <algorithm>
 
 using namespace std;
 
