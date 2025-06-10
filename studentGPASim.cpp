@@ -263,6 +263,7 @@ int main() {
             
             int cG = rand() % 101; 
             double courseGrade = static_cast<double>(cG) / 100; 
+            //Applied Root Curve
             for(int c = 0; c < 3; c++){
                 courseGrade = sqrt(courseGrade);                  
             }                 
@@ -334,7 +335,7 @@ int main() {
     cout << "--------------------------------------------------\n";
     for (size_t i = 0; i < students.size(); i++) {
         cout << i+1 << "\t" << students[i].getName();
-
+        //Output Format
         if (students[i].getName().length() < 16) cout << "\t";
         if (students[i].getName().length() < 8) cout << "\t";
         cout << "\t" << fixed << setprecision(4) << students[i].getWGPA() 
